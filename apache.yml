@@ -1,6 +1,6 @@
 ---
 - hosts: webservers 
-  gather_fact: false
+  gather_facts: False
   become: True
   tasks:
     - name: Install packages
