@@ -6,7 +6,7 @@
     - name: Install packages
       yum:
         name: "httpd"
-        state: "present"
+        state: present
     - name: Start Apache server
       service:
         name: httpd

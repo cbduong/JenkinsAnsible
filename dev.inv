@@ -1,5 +1,2 @@
 [webservers]
 172.31.30.41 ansible_user=ubuntu 
-
-[webservers]
-ansible_python_interpreter=/usr/bin/python2
