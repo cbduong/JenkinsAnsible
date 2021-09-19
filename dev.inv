@@ -3,4 +3,4 @@
 
 [webservers:vars]
 ansible_user=ubuntu
-ansible_python_interpreter=/usr/bin/python2.7
+ansible_python_interpreter=/usr/bin/python2
