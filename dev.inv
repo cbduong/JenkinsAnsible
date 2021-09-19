@@ -1,2 +1,6 @@
 [webservers]
-172.31.23.139 ansible_user=ubuntu 
+172.31.23.139
+
+[webservers:vars]
+ansible_user=ubuntu
+ansible_python_interpreter=/usr/bin/python2
